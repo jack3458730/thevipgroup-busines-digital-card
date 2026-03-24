@@ -1,0 +1,155 @@
+body {
+      font-family: "Archivo Black", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      background-image: url("img/bg.png");
+      background-size: 110%;
+      background-repeat: no-repeat;
+      
+}
+
+#menuimg:hover {
+      transform: translateX(-30%);
+
+}
+
+#menuimg {
+     
+      width: 60%;
+      height: 50%;
+   
+      transition: all 0.3s ease-in-out;
+}
+
+#menuimg2 {
+      width: 60%;
+      height: 50%;
+
+      transition: all 0.3s ease-in-out;
+}
+
+#menuimg2:hover {
+      transform: translateX(30%);
+
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px; 
+}
+
+#menuimg3 {
+      width: 30%;
+      height: 30%;
+      transition: all 0.3s ease-in-out;
+}
+
+#menuimg3:hover {
+      transform: scale(1.2);
+
+}
+#info {
+      background: #27a192;
+      color: white;
+      text-shadow: -3px 2px black;
+      background: linear-gradient(12deg, rgba(39, 161, 146, 1) 18%, rgba(82, 96, 222, 1) 75%);
+}
+
+.logo {
+      filter: brightness(0) invert(1);
+
+}
+h1{
+      text-align: center;
+}
+
+.hotline {
+      animation: color-change 5s infinite alternate, sway 10s infinite ease-in-out;
+      text-align: center;
+      padding: auto;
+      font-size: 200%;
+      text-shadow: 2px 1px white;
+}
+
+.sway{
+      animation: sway2 5s infinite ease-in-out;
+}
+
+
+@keyframes color-change {
+      0% {
+            color: rgb(255, 255, 255);
+      }
+
+      25% {
+            color: rgb(110, 119, 130);
+      }
+       50% {
+            color: rgb(24, 24, 24);
+      }
+
+      100% {
+            color: rgb(255, 255, 255);
+      }
+}
+
+@keyframes sway {
+      0% {
+            transform: translateX(0);
+      }
+
+      0% {
+            transform: translateY(0);
+      }
+
+      25% {
+            transform: translateX(-8px);
+      }
+
+      25% {
+            transform: translateY(-8px);
+      }
+
+      50% {
+            transform: translateX(8px);
+      }
+
+      75% {
+            transform: translateY(-8px);
+      }
+
+      100% {
+            transform: translateX(0);
+      }
+
+      100% {
+            transform: translateY(0);
+      }
+}
+
+@keyframes sway2 {
+      0% {transform: translateY(0);}
+
+      25% {
+            transform: translateY(-10px);
+      }
+
+      75% {
+            transform: translateY(-20px);
+      }
+
+      100%{
+            transform: translateY(0);
+      }
+
+
+}
+
+.linkbutton{
+      margin: auto;
+      display: block;
+      margin-top: 20%;
+      margin-bottom: 10%;
+      font-size: 150%;
+}
